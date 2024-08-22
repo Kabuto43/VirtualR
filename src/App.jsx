@@ -1,8 +1,9 @@
 import { FeatureSection } from './components/FeatureSection'
 import { HeroSection } from './components/HeroSection'
-import { WorkflowSection } from './components/WorkflowSection'
-import { PricingSection } from './components/PricingSection'
 import { Navbar } from './components/Navbar'
+import { PricingSection } from './components/PricingSection'
+import { TestimonialSection } from './components/TestimonialSection'
+import { WorkflowSection } from './components/WorkflowSection'
 
 export const App = () => {
   return (
@@ -12,7 +13,8 @@ export const App = () => {
         <HeroSection />
         <FeatureSection />
         <WorkflowSection />
-        <PricingSection/>
+        <PricingSection />
+        <TestimonialSection />
       </div>
     </>
   )
