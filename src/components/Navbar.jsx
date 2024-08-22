@@ -20,18 +20,18 @@ export const Navbar = () => {
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12">
             {navItems.map((item, index) => (
-              <li key={index}>
+              <li key={index} className="text-neutral-300 hover:text-white transition duration-200">
                 <a href={item.href}>{item.label}</a>
               </li>
             ))}
           </ul>
           <div className="hidden lg:flex justify-center space-x-12 items-center">
-            <a href="#" className="py-2 px-3 border rounded-md">
+            <a href="#" className="py-2 px-3 border rounded-md hover:bg-neutral-200 hover:text-black transition duration-200">
               Sign In
             </a>
             <a
               href="#"
-              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md"
+              className="bg-gradient-to-r from-orange-500 to-orange-800 py-2 px-3 rounded-md hover:from-orange-700 hover:to-orange-900 transition duration-200"
             >
               Create an account
             </a>

@@ -16,10 +16,10 @@ export const HeroSection = () => {
 				Get started today and turn your imagination into immersive reality!
 			</p>
 			<div className="flex justify-center my-10">
-				<a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md">
+				<a href="#" className="bg-gradient-to-r from-orange-500 to-orange-800 py-3 px-4 mx-3 rounded-md hover:from-orange-700 hover:to-orange-900 transition duration-200">
 					Start for free
 				</a>
-				<a href="#" className="py-3 px-4 mx-3 rounded-md border">
+				<a href="#" className="py-3 px-4 mx-3 rounded-md border hover:bg-neutral-200 hover:text-black transition duration-200">
 					Documentation
 				</a>
 			</div>
